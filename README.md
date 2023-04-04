@@ -12,4 +12,6 @@ Two different implementations are included:
 
 - `ddpm_camels.ipynb`: using a more updated implementation of diffusion models from [Denoising Diffusion Pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch). Convert CAMELS data to a dataset of images using `get_camels_maps.ipynb`.
 
+To validate the accuracy of the generated images, one can compute several summary statistics such as the power spectrum or the probability density function, in `summary_stats.ipynb`.
+
 ![Sampled images from diffusion model](camels_diffusion.png)
